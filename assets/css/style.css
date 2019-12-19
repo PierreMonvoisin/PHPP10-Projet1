@@ -1,6 +1,6 @@
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
   scroll-behavior: smooth;
   padding-top: 5vh;
@@ -10,10 +10,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+label {
+  color: #FFFFFF;
+}
 .form-group {
   display: flex;
 }
 .form-group label{
   white-space: nowrap;
   margin-right: 2vw;
+}
+#secondSlide, #thirdSlide, #fourthSlide, #fifthSlide, #submitButton {
+  display: none;
 }
