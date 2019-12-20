@@ -91,10 +91,10 @@
             <div class="form-group d-flex">
               <label for="experienceYes">Expérience</label>
               <input class="my-auto mx-2" type="radio" id="experienceYes" name="experienceRadio">
-              <label for="experienceYes">OUI</label>
+              <label name="Yes" for="experienceYes">OUI</label>
               <label class="sr-only" for="experienceNo">Expérience</label>
               <input class="my-auto mx-2" type="radio" id="experienceNo" name="experienceRadio">
-              <label for="experienceNo">NON</label>
+              <label name="No" for="experienceNo">NON</label>
             </div>
           </div>
           <input class="m-auto" id="submitButton" type="submit" value="Continuer">
