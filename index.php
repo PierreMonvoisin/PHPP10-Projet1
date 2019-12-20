@@ -15,48 +15,48 @@
           <!-- First slide -->
           <div class="form-group">
             <label for="lastname">Nom</label>
-            <input type="text" class="form-control" id="lastname" name="lastName" placeholder="Doe">
+            <input type="text" class="form-control" id="lastname" name="lastName" placeholder="Doe" required>
           </div>
           <div class="form-group">
             <label for="firstname">Prénom</label>
-            <input type="text" class="form-control" id="firstname" name="firstName" placeholder="John">
+            <input type="text" class="form-control" id="firstname" name="firstName" placeholder="John" required>
           </div>
           <div class="form-group">
             <label for="birthday">Date de naissance</label>
             <!-- The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill. -->
-            <input type="date" class="form-control" id="birthday" name="birthday">
+            <input type="date" class="form-control" id="birthday" name="birthday" required>
           </div>
           <!-- Second slide -->
           <div id="secondSlide">
             <div class="form-group">
               <label for="country">Pays</label>
-              <input type="text" class="form-control" id="country" name="country" placeholder="France">
+              <input type="text" class="form-control" id="country" name="country" placeholder="France" required>
             </div>
             <div class="form-group">
               <label for="nationality">Nationalité</label>
-              <input type="text" class="form-control" id="nationality" name="nationality" placeholder="Français">
+              <input type="text" class="form-control" id="nationality" name="nationality" placeholder="Français" required>
             </div>
             <div class="form-group">
               <label for="adress">Adresse</label>
-              <input type="text" class="form-control" id="adress" name="adress" placeholder="73 Rue de Verdun...">
+              <input type="text" class="form-control" id="adress" name="adress" placeholder="73 Rue de Verdun..." required>
             </div>
           </div>
           <!-- Third slide -->
           <div id="thirdSlide">
             <div class="form-group">
               <label for="email">Mail</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="john.doe@mail.com">
+              <input type="email" class="form-control" id="email" name="email" placeholder="john.doe@mail.com" required>
             </div>
             <div class="form-group">
               <label for="phone">Téléphone</label>
-              <input type="text" class="form-control" id="phone" name="phoneNumber" placeholder="0X/11/22/33/44">
+              <input type="text" class="form-control" id="phone" name="phoneNumber" placeholder="0X/11/22/33/44" required>
             </div>
           </div>
           <!-- Fourth Slide -->
           <div id="fourthSlide">
             <div class="form-group">
               <label for="degree">Diplôme</label>
-              <input list="levels" name="degree" id="degree" placeholder="Diplômes">
+              <input list="levels" name="degree" id="degree" placeholder="Diplômes" required>
               <datalist id="levels">
                 <option value="Sans">
                 <option value="Bac">
@@ -67,15 +67,15 @@
             </div>
             <div class="form-group">
               <label for="poleEmploi">Pôle Emploi</label>
-              <input type="text" class="form-control" id="poleEmploi" name="poleEmploiLogin" placeholder="1234567A">
+              <input type="text" class="form-control" id="poleEmploi" name="poleEmploiLogin" placeholder="1234567A" required>
             </div>
             <div class="form-group">
               <label for="palmes">Palmes</label>
-              <input id="palmes" type="range" name="numberPalmes" class="custom-range" min="0" max="6" step="1">
+              <input id="palmes" type="range" name="numberPalmes" class="custom-range" min="0" max="6" step="1" required>
             </div>
             <div class="form-group">
               <label for="codecademy">CodeCademy</label>
-              <input type="url" class="form-control" name="codecademyURL" id="codecademy" placeholder="codecademy.com/user">
+              <input type="url" class="form-control" name="codecademyURL" id="codecademy" placeholder="codecademy.com/user" required>
             </div>
           </div>
           <!-- Fifth slide -->
@@ -90,10 +90,10 @@
             </div>
             <div class="form-group d-flex">
               <label for="experienceYes">Expérience</label>
-              <input class="my-auto mx-2" type="radio" id="experienceYes" name="experienceRadio">
+              <input class="my-auto mx-2" type="radio" id="experienceYes" name="experienceRadio" required>
               <label name="Yes" for="experienceYes">OUI</label>
               <label class="sr-only" for="experienceNo">Expérience</label>
-              <input class="my-auto mx-2" type="radio" id="experienceNo" name="experienceRadio">
+              <input class="my-auto mx-2" type="radio" id="experienceNo" name="experienceRadio" required>
               <label name="No" for="experienceNo">NON</label>
             </div>
           </div>
