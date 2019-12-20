@@ -23,7 +23,7 @@
           </div>
           <div class="form-group">
             <label for="birthday">Date de naissance</label>
-            // The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
+            <!-- The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill. -->
             <input type="date" class="form-control" id="birthday" name="birthday">
           </div>
           <!-- Second slide -->
