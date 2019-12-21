@@ -11,7 +11,7 @@
   <div class="card m-auto p-1 bg-success shadow-lg">
     <div class="card-body">
       <div>
-        <form action="index.php" method="get" autocomplete="on">
+        <form id="form" action="index.php" method="get" autocomplete="on">
           <!-- First slide -->
           <div class="form-group">
             <label for="lastname">Nom</label>
@@ -75,7 +75,7 @@
             </div>
             <div class="form-group">
               <label for="codecademy">CodeCademy</label>
-              <input type="url" class="form-control" name="codecademyURL" id="codecademy" placeholder="codecademy.com/user" required>
+              <input type="text" class="form-control" name="codecademyURL" id="codecademy" placeholder="codecademy.com/user" required>
             </div>
           </div>
           <!-- Fifth slide -->
@@ -96,8 +96,8 @@
               <input class="my-auto mx-2" type="radio" id="experienceNo" name="experienceRadio" required>
               <label name="No" for="experienceNo">NON</label>
             </div>
+            <input class="m-auto" id="submitButton" type="submit" value="Continuer">
           </div>
-          <input class="m-auto" id="submitButton" type="submit" value="Continuer">
         </form>
       </div>
     </div>
