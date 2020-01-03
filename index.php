@@ -22,7 +22,7 @@ if (isset($_GET['submitButton']) && $_SERVER['REQUEST_METHOD'] === 'GET'){
   $firstName = cleanInput($_GET['firstName']);
   preg_match($regExText, $firstName) ? $firstName : $firstName = 'WrongInput';
   $birthday = cleanInput($_GET['birthday']);
-  $birthday = date_create_from_format("Y-m-j",$birthday);
+  $birthday = date_create_from_format('Y-m-j',$birthday);
   $country = cleanInput($_GET['country']);
   $nationality = cleanInput($_GET['nationality']);
   $adress = cleanInput($_GET['adress']);
@@ -120,11 +120,11 @@ if (isset($_GET['submitButton']) && $_SERVER['REQUEST_METHOD'] === 'GET'){
                 <label for="degree">Diplôme</label>
                 <input list="levels" name="degree" id="degree" placeholder="Diplômes" required>
                 <datalist id="levels">
-                  <option value="Sans Diplôme">
-                  <option value="Bac">
-                  <option value="Bac +2">
-                  <option value="Bac +3">
-                  <option value="Supérieur">
+                  <option value="Sans Diplôme"></option>
+                  <option value="Bac"></option>
+                  <option value="Bac +2"></option>
+                  <option value="Bac +3"></option>
+                  <option value="Supérieur"></option>
                 </datalist>
               </div>
               <div class="form-group">
